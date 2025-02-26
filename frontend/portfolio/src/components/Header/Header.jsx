@@ -29,12 +29,12 @@ return(
                 </li>
                 <li>
                   <Link to="/project" className=''>
-                    PROJECT
+                    PROJECTS
                   </Link>
                 </li>
                 <li>
                 <Link to="/about" className=''>
-                    ABOUT US
+                    ABOUT 
                   </Link>
                   
                 </li>

@@ -4,12 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import Layout from './components/Layout.jsx'
-import Home from './components/Home/Home.jsx'
-import About from './components/About/About.jsx'
+import { Home, About, Github, Layout  } from './components/index.js';
+
 import User from './components/User/User.jsx'
-import Github from './components/Github/Github.jsx'
+
 import Project from './components/Project/Project.jsx'
+import Counter from './pages/Counter.jsx';
+import Random_password from './pages/Random_password.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,8 @@ const router = createBrowserRouter(
       <Route path = "project" element={<Project/>}/>
       <Route path ="github" element={<Github/>}/>
       <Route path ="contact" element={<Github/>}/>
+      <Route path ="project_1" element={<Counter/>}/>
+      <Route path ="project_2" element={<Random_password/>}/>
       <Route path = "user/:userid" element={<User/>}/>
     </Route>
   )
