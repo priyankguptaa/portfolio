@@ -6,14 +6,14 @@ function Github(){
         fetch("https://api.github.com/users/priyankguptaa")
         .then(Response => Response.json())
         .then(data =>{
-            console.log(data)
-            setData(data)
+            setData(data)            
         })
     },[])
 
     return(
         <div>
             GitFollowers: {data.followers}
+            <img src={data.avatar_url} alt=""  />
         </div>
 )}
 
