@@ -28,16 +28,17 @@ return(
                   </Link>
                 </li>
                 <li>
-                  <Link to="/project" className=''>
-                    PROJECTS
-                  </Link>
-                </li>
-                <li>
                 <Link to="/about" className=''>
                     ABOUT 
                   </Link>
                   
                 </li>
+                <li>
+                  <Link to="/project" className=''>
+                    PROJECTS
+                  </Link>
+                </li>
+               
                 <li>
                 <Link to="/github" className=''>
                     GITHUB

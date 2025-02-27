@@ -1,0 +1,21 @@
+.github_sec h4{
+    font-size: 21px;
+    font-weight: 500;
+}
+.github_sec img{
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+.github_sec .right_sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.github_sec .left_sec{
+text-align: center;
+}
+.github_sec p span{
+    font-weight:700;
+}

@@ -1,0 +1,12 @@
+.about_div img{
+    width: 100%;
+    border-radius: 4%;
+    object-fit: cover;
+    height: 100%;
+}
+.about_right{
+    text-align: center;
+}
+.about_div p span{
+    font-weight: 700;
+}

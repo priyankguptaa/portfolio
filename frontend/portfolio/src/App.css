@@ -2,6 +2,30 @@
     padding:0px;
     margin: 0px;
 }
+body{
+    background: #f4ede4 !important;
+}
+/* button css start */
+button{
+    padding: 6px;
+    background: #000000;
+    color: #f9c583;
+    font-weight: 500;
+    width: 21%;
+}
+.container-div{
+    padding-bottom: 50px;
+}
+.main-heading{
+    font-size: 35px;
+    margin: 40px 0 30px;
+    font-weight: 700;
+    padding-bottom: 6px;
+    border-bottom: 6px solid #f9c583;
+    border-radius: 11px;
+    width: fit-content;
+}
+
 /* Header css start */
 header{
     background-color: #000000;
@@ -84,10 +108,26 @@ footer{
     text-align: center;
     margin: 30px 0px 10px;
 }
-/* button css start */
 
-button{
-    border-radius: 7px;
-    padding: 6px 24px;
-    font-size: 15px;
+/* counter page css */
+.counter_div{
+    padding: 50px 0px;
+    text-align: center;
+}
+.counter_div h3{
+    font-size: 35px;
+}
+.counter-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px 0px;
+}
+.counter_value{
+    font-size: 26px;
+    font-weight: 600;
+}   
+.left_counter{
+border-right: 2px dotted #000000;
 }
