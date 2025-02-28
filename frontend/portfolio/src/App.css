@@ -131,3 +131,39 @@ footer{
 .left_counter{
 border-right: 2px dotted #000000;
 }
+/* random password generator */
+.main_pass_generator{
+    padding: 30px;
+    background: #fff;
+    width: 50%;
+    border: 2px dotted;
+    border-radius: 10px;
+}
+.main_pass_generator .input_div input{
+    width: 70%;
+    background: #f9c583;
+    outline: none;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 6px 0px 0px 6px;
+}
+.main_pass_generator .input_div button{
+    width:30%;
+    border-radius: 0px 6px 6px 0px;
+}
+.sub_pass_generator_div{
+    display: flex;
+    padding: 20px 0px;
+    gap: 25px;
+}
+.sub_pass_input{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sub_pass_input .checkbox{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+/* Crud Project */
