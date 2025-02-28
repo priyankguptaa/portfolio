@@ -5,6 +5,9 @@ import Layout from "./Layout";
 import User from "./User/User";
 import Project from "./Project/Project";
 import Contact from "./Contact/Contact";
+import TodoForm from "./TodoForm";
+import TodoItem from "./TodoItem";
+
 
 export {
     Home,
@@ -13,7 +16,9 @@ export {
     Layout,
     User,
     Project, 
-    Contact
+    Contact,
+    TodoForm,
+    TodoItem
 
 }
 

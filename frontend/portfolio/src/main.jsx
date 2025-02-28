@@ -7,6 +7,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import { Home, About, Github, Layout, User, Project, Contact  } from './components/index.js';
 import Counter from './pages/Counter.jsx';
 import Random_password from './pages/Random_password.jsx';
+import Crud from './pages/Crud.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route path ="contact" element={<Contact/>}/>
       <Route path ="project_1" element={<Counter/>}/>
       <Route path ="project_2" element={<Random_password/>}/>
+      <Route path ="project_4" element={<Crud/>}/>
       <Route path = "user/:userid" element={<User/>}/>
     </Route>
   )

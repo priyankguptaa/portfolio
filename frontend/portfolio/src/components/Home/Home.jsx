@@ -7,9 +7,8 @@ import About from "../About/About"
 function Home(){
     return(
         <>
-        <About/>
         <Project/>
-        <Github/>
+        <About/>
         </>
     )
 }
