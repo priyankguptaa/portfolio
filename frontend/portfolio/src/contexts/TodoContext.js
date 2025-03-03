@@ -12,7 +12,7 @@ export const TodoContext = createContext({
     toggleComplete:(id) => {}
 })
 
-export const useTodo = ()=>{
+export const useTodo = () => {
     return useContext(TodoContext)
 }
 

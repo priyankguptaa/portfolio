@@ -3,7 +3,7 @@ import { useTodo } from '../contexts/TodoContext'
 
 function TodoForm() {
     const [todo,setTodo] = useState("")
-    const [addTodo] = useTodo()
+    const {addTodo} = useTodo()
 
     const add = (e) =>{
         e.preventDefault()
@@ -18,7 +18,7 @@ function TodoForm() {
             <input type="text" 
                 placeholder='Add Todo....'
                 value={todo}
-                onChange={(e)=setTodo(e.target.value)}
+                onChange={(e) => setTodo(e.target.value)}
             />
             <button>Submit</button>
       </form>
