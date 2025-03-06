@@ -5,6 +5,9 @@
 body{
     background: #f4ede4 !important;
 }
+.row {
+    --bs-gutter-x: 0rem !important;
+}
 /* button css start */
 button{
     padding: 6px;

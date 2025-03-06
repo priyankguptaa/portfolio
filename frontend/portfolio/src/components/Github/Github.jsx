@@ -10,8 +10,6 @@ function Github(){
         fetch("https://api.github.com/users/priyankguptaa")
         .then(Response => Response.json())
         .then(data =>{setData(data)
-
-            console.log(data)
         })
     },[])
 

@@ -7,6 +7,8 @@ import Project from "./Project/Project";
 import Contact from "./Contact/Contact";
 import TodoForm from "./TodoForm";
 import TodoItem from "./TodoItem";
+import Select from "./Select";
+import Cards from "./Cards/Cards";
 
 
 export {
@@ -18,7 +20,9 @@ export {
     Project, 
     Contact,
     TodoForm,
-    TodoItem
+    TodoItem,
+    Select,
+    Cards
 
 }
 
